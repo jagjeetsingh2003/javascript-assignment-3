@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+ 
+li.checked {
+    text-decoration: line-through;
+    color: #008000;  
+}
+
+li.deleted {
+    color: #ff0000;  
+}
+li.checked {
+    text-decoration: line-through;
+    color: #008000;  
+    transition: opacity 0.3s ease-out;
+    opacity: 0.7;
+}
+
+li.deleted {
+    color: #ff0000; 
+    transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
